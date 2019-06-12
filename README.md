@@ -30,6 +30,15 @@ Convolutional Neural Networks with Octave Convolution](https://export.arxiv.org/
 
 
 ## Acknowledgment
+```
+@article{chen2019drop,
+  title={Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution},
+  author={Chen, Yunpeng and Fan, Haoqi and Xu, Bing and Yan, Zhicheng and Kalantidis, Yannis and Rohrbach, Marcus and Yan, Shuicheng and Feng, Jiashi},
+  journal={arXiv preprint arXiv:1904.05049},
+  year={2019}
+}
+```
+
 The [train_script](train_script.py) refers to [Gluon-cv](https://github.com/dmlc/gluon-cv).
 
 ```
