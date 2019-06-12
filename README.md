@@ -9,8 +9,9 @@ A Gluon Implementation for Drop an Octave
 
 |Model         |alpha|epochs|batch size|dtype  |tricks         |Top1  |Top5  |param|
 |:------------:|:---:|:----:|:--------:|:-----:|:-------------:|:----:|:----:|:---:|
-|oct_resnet50v2|0.125|120   |128       |float16|cosine decay   |77.82%|94.13%|[GoogleDrive](https://drive.google.com/open?id=1VAvoqg2brpfELbL1RgLaip6w1NUJAK2W)|
+|oct_resnet50v2|0.125|100   |128       |float16|cosine decay   |77.82%|94.13%|[GoogleDrive](https://drive.google.com/open?id=1VAvoqg2brpfELbL1RgLaip6w1NUJAK2W)|
 
+- I use 4 * GTX1080 with pre batch of 128.Cost 10 days should be better with 2080(ti). 
 - I may should train 120 epochs, break 3% acc than proposed.
 
 
